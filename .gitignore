@@ -1,0 +1,10 @@
+# Materiais dos docentes (estão no Moodle, não publicar)
+*.pdf
+*.docx
+
+# Python
+__pycache__/
+*.pyc
+
+# Ficheiros temporários do Word
+~$*
