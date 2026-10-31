@@ -29,3 +29,5 @@ while opcao != 0:
 
     elif opcao != 0:
         print("Opção inválida.")
+if opcao==0:
+    print('Fim')
