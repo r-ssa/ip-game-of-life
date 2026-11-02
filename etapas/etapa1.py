@@ -18,15 +18,18 @@ while opcao != 0:
             yCells = int(input("Indique a altura da grelha (nº de células): "))
             dCell = int(input("Indique o tamanho da célula (em píxeis): "))
 
-        altura = yCells * dCell
-        largura = xCells * dCell
+        altura = yCells * dCell #Altura da janela
+        largura = xCells * dCell #Largura da janela
 
         turtle.setup(largura + 30, altura + 30) #Janela
         turtle.screensize(largura, altura)
-        turtle.setworldcoordinates(0, 0, largura, altura) #Tem origem no canto inferior esquerdo
+        turtle.setworldcoordinates(0, 0, largura, altura) #Tem origem no canto superior esquerdo
 
         turtle.done()
-
+        
+        turtle.Turtle._screen = None
+        turtle.TurtleScreen._RUNNING = True 
+    
     elif opcao != 0:
         print("Opção inválida.")
 if opcao==0:
