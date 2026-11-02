@@ -23,7 +23,7 @@ while opcao != 0:
 
         turtle.setup(largura + 30, altura + 30)
         turtle.screensize(largura, altura)
-        turtle.setworldcoordinates(0, 0, largura + 10, altura + 10)
+        turtle.setworldcoordinates(0, 0, largura, altura)
 
         turtle.done()
 
