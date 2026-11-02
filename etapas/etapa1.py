@@ -21,9 +21,9 @@ while opcao != 0:
         altura = yCells * dCell
         largura = xCells * dCell
 
-        turtle.setup(largura + 30, altura + 30)
+        turtle.setup(largura + 30, altura + 30) #Janela
         turtle.screensize(largura, altura)
-        turtle.setworldcoordinates(0, 0, largura, altura)
+        turtle.setworldcoordinates(0, 0, largura, altura) #Tem origem no canto superior esquerdo
 
         turtle.done()
 
